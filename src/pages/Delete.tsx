@@ -1,5 +1,3 @@
-import Edit from "./Edit.tsx";
-import Home from "./Home.tsx";
 import {useParams} from "react-router-dom";
 import {useContext} from "react";
 import {AppContext} from "../App.tsx";

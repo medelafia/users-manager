@@ -22,6 +22,7 @@ export default function Edit() {
             country : country.current.value
         };
         context.updateUser(user)
+        window.history.back()
     }
     return (
         <>

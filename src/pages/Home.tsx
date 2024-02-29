@@ -9,6 +9,9 @@ export  default  function Home() {
     useEffect(()=>{
         setUsersList(context.users)
     },[])
+    useEffect(()=> {
+        setUsersList(context.users)
+    } , [context.users])
     const displayUsers = () => {
         return users?.map((user,key)=> {
             return <tr key={key}>
